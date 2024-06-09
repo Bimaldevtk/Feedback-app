@@ -1,0 +1,82 @@
+.Navbar {
+  display: flex;
+  width: 100%;
+}
+
+.nav-body {
+  width: 100%;
+  height: 122px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px ;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25)
+}
+
+.title-grp {
+  display: flex;
+  align-items: center;
+}
+
+.title-product {
+  font-size: 24px;
+  background-color: #F8F8F8;
+  color: black;
+  margin: 0 6px;
+  font-family: Montserrat, sans-serif;
+}
+
+.title {
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+}
+
+.nav-comp {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin: 0 3px; /* Adjust margin as needed */
+}
+
+.vector-img {
+  height: 7px;
+  margin-left: 5px; /* Spacing between text and image */
+}
+.vector-learn{
+  display: flex;
+  flex-direction: row;
+}
+.vector-practice{
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  
+
+}
+
+.ellipse {
+  height: 50px;
+  width: 50px;
+}
+
+.font {
+  color: #FEFEFE;
+  text-decoration: none;
+  margin: 0; /* Reset margin */
+  font-size: 24px;
+  font-family: inter,sans-serif;
+  font-weight: 600;
+  color: rgba(254, 254, 254, 0.5)
+}
+
+a {
+  text-decoration: none; /* Ensure links have no underline */
+}
