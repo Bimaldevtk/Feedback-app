@@ -154,3 +154,194 @@
     font-size: 16px;
     color: rgba(42, 42, 42, 1);
   }
+  .answer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 832px;
+    height: 43px;
+    margin-left: 304px;
+    margin-top: 24px;
+  }
+  .ans-text{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 24px;
+    height: 36px;
+    width: 163px;
+ }
+ .sort-popular{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+.sort{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(248, 248, 248, 1);
+}
+.dropbtn{
+    background-color: rgba(248, 248, 248, 1);
+    width: 128px;
+    height: 43px;
+    border-radius: 6px;
+    color: rgba(42, 42, 42, 1);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container-2{
+    background-color: rgba(222, 231, 255, 1);
+    width: 832px;
+    height: 317px;
+    border-radius: 6px;
+    margin-left: 304px;
+    margin-top: 24px;
+
+}
+.first-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 41px;
+    margin-top: 16px;
+    margin-right: 41px;
+
+}
+.pic-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+
+}
+.edit-with-pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+}
+
+.neha-name{
+    color: rgba(15, 15, 15, 1);
+    width: 171px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Poppins;
+    white-space: nowrap;  
+
+}
+.date{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    height: 27px;
+    width: 153px;
+    color: rgba(15, 15, 15, 1);
+}
+.name{
+    flex-direction: row; 
+    gap: 8px; 
+    align-items: center;
+    
+    
+
+
+}
+
+.edit-img{
+    width: 20px;
+    height: 20px;
+}
+.edit-word{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(15, 15, 15, 1);
+}
+
+.Text-c2{
+    margin-top: 1px;
+    margin-left: 41px;
+    height: 135px;
+    width: 750px;
+}
+
+.a{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(15, 15, 15, 1);
+}
+.b{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(15, 15, 15, 1);
+}
+.c{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(15, 15, 15, 1);
+}
+.last-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  
+    margin-left: 42px;
+
+}
+
+.like-img{
+    height: 25px;
+    width: 25px;
+    margin-left: 30px;
+}
+
+.like-word{
+    margin-left: 10px;
+    color: rgba(15, 15, 15, 1);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.msg-img{
+    margin-left: 16px;
+    height: 25px;
+    width: 25px;
+}
+.text-field{
+    margin-left: 10px;
+    width: 478px;
+    height: 34px;
+    border-radius: 6px;
+    border :solid 1px black;
+    background-color:rgba(222, 231, 255, 1);
+    color: rgba(151, 149, 149, 1);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.post{
+    width: 76px;
+    height: 34px;
+    border-radius: 6px;
+    background-color:rgba(222, 231, 255, 1) ;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 500;
+    margin-left: 10px;
+
+}
