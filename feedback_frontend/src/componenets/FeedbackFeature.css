@@ -26,6 +26,11 @@
     height: 40px;
 
 }
+.big-contanier{
+    display: flex;
+    flex-direction: row;
+    
+}
 
 .container-1{
     margin-left: 304px;
@@ -34,6 +39,8 @@
     width:832px;
     height: 351px;
     border-radius: 1px;
+    /* margin-right: 304px; */
+  
     
 }
 .startup{
@@ -200,6 +207,7 @@
     border-radius: 6px;
     margin-left: 304px;
     margin-top: 24px;
+    /* margin-right: 304px; */
 
 }
 .first-div{
@@ -208,8 +216,8 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 41px;
-    margin-top: 16px;
     margin-right: 41px;
+
 
 }
 .pic-name{
@@ -292,11 +300,11 @@
 }
 .last-div{
     display: flex;
-    flex-direction: row;
+
     justify-content: start;
     align-items: center;
-  
     margin-left: 42px;
+    margin-bottom: 30px;
 
 }
 
@@ -343,5 +351,20 @@
     font-weight: 500;
     font-family: 500;
     margin-left: 10px;
+
+}
+
+
+.dropDown{
+    width: 256px;
+    height: 400px;
+    /* background-color: brown; */
+    margin-left: 16px;
+}
+.cont2-drop{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    
 
 }

@@ -1,0 +1,227 @@
+
+
+.dropdown-btn {
+    position: relative;
+    top: 325px;
+    margin-left: 280px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+.full-menu{
+    display: flex;
+    flex-direction: column;
+}
+.word{
+
+    width: 172px;
+    height: 34px;
+    border-radius: 4px;
+    background-color: rgba(248, 248, 248, 1);
+    color: rgba(15, 15, 15, 1);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+.dropdown-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    border: none;
+}
+.pic{
+    width: 60px;
+    height: 60px;
+}
+
+  
+
+.horizontal-buttons{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 250px;
+
+  
+}
+
+.cont-report{
+    width: 430px;
+    height: 536px;
+    margin-left: 16px;
+    position: absolute;
+    top: 500px;
+    right: 120px;
+  
+    border-radius: 8px;
+    background-color: rgba(248, 248, 248, 1);
+
+
+}
+.let{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(77, 77, 77, 1);
+    margin: 0; /* Remove default margin */
+    margin-bottom: 1px; /* Decrease margin between paragraphs */
+}
+.let-sentence {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 3px rgba(204, 204, 204, 1) solid;
+  }
+  
+.choose{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(77, 77, 77, 1);
+}
+.section{
+    display:flex;
+    flex-direction: column;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.custom-select{
+    background-color: rgba(224, 224, 224, 1);
+    height: 48px;
+    font-family: Poppins,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+}
+.describe{
+    font-family: Poppins,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(77, 77, 77, 1);
+
+
+}
+.text-area{
+    width: 398px;
+    height: 180px;
+    background-color: rgba(224, 224, 224, 1);
+    margin-left: 16px;
+    color: rgba(15, 15, 15, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins    ;
+    /* margin-right:16px; */
+}
+.text-area-r{
+    width: 398px;
+    height: 180px;
+    background-color: rgba(224, 224, 224, 1);
+    color: rgba(15, 15, 15, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins    ;
+   
+    /* margin-right:16px; */
+}
+
+.text-area::placeholder{
+    color: rgba(128, 128, 128, 1);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.textarea-container{
+    width: 102px;
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    /* background-color: rgba(224, 224, 224, 1); */
+    position: absolute;
+    bottom: 130px;
+}
+
+.attach-btn{
+
+    background-color: rgba(199, 199, 199, 1);
+
+    border-radius: 4px;
+    color: rgba(51, 51, 51, 1);
+    font-weight: 500;
+    font-family: Poppins,sans-serif;
+    width: 102px;
+    height: 32px;
+    font-size: 19px;
+    border: none;
+    margin-left: 10px;
+
+}
+.submit-btn{
+    background-color: rgba(15, 15, 15, 1);
+    color: rgba(248, 248, 248, 1);
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.sub-div{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 16px
+}
+.name-text{
+    margin-top: 12px;
+    background-color: rgba(224, 224, 224, 1);
+    height: 42px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    
+
+}
+.name-text::placeholder{
+    color: rgba(128, 128, 128, 1);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Poppins;
+}
+.name-text1{
+    background-color: rgba(224, 224, 224, 1);
+    height: 120px;
+    border-radius: 8px;
+    color: rgba(15, 15, 15, 1);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins    ;
+}
+.thank-you-chatbox{
+    width: 416px;
+    height: 88px;
+    background-color: rgba(248, 248, 248, 1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.thanks{
+    width: 400px;
+    height: 54px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: rgba(15, 15, 15, 1);
+}
+
+.attach-pic{
+    width: 24px;
+    height: 24px;
+}
